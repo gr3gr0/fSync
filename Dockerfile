@@ -1,6 +1,5 @@
-FROM debian:latest
+FROM python:2.7-slim
 
-ENV DEBIAN_FRONTEND noninteractive
 ENV FFSYNC_PORT 8080
 
 RUN apt-get install python-dev git-core python-virtualenv g++ nano
