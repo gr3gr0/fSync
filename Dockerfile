@@ -3,7 +3,7 @@ FROM debian:latest
 ENV FFSYNC_PORT 8080
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y python-dev git-core python-virtualenv g++ nano
+RUN apt-get install -y python-dev git-core python-virtualenv g++ nano make
 
 WORKDIR /opt/syncserver
 
