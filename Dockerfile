@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM python:2.7-slim
 
 ENV FFSYNC_PORT 8080
 
